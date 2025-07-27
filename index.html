@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Heyyy cutuww</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+    @keyframes fadeInStay {
+        0%    { opacity: 0; }
+        30%   { opacity: 1; }
+        70%   { opacity: 1; }
+        100%  { opacity: 0; }
+    }
+
+    /* Animation for fading in and staying visible */
+    @keyframes fadeInForever {
+        0%    { opacity: 0; transform: scale(0.8); }
+        100%  { opacity: 1; transform: scale(1); }
+    }
+
+    .fade-big {
+        opacity: 0;
+        animation: fadeInStay 5s ease forwards;
+    }
+
+    .fade-small {
+        opacity: 0;
+        animation: fadeInStay 5s ease forwards;
+        animation-delay: 1.5s;
+    }   
+
+    .fade-thankyou {
+        opacity: 0;
+        animation: fadeInStay 4s ease forwards;
+        animation-delay: 4s;
+    }
+
+    .fade-final {
+        opacity: 0;
+        animation: fadeInForever 0.5s ease forwards;
+        animation-delay: 8s;
+    }
+    
+    h1, p {
+        font-family:  'Playwrite AU QLD', cursive;
+    }
+
+
+    </style>
+</head>
+<body style="background-color: beige; height: 100vh; width: 100vw; margin: 0;
+             display: flex; justify-content: center; align-items: center;">
+
+    <!-- Container for the box and text -->
+    <div style="display: flex; flex-direction: column; align-items: center;">
+
+        <!-- Box with text inside -->
+        <div class="fade-big" style="width: 750px; height: 500px; 
+        background-color: palevioletred;
+                    border-radius: 50px;
+                     display: flex;
+                      justify-content: center;
+                       align-items: center;
+                       ;">  
+
+            <h1 style="color:beige; text-align: center; margin: 0;">Heyyyyyy!!!</h1>
+        </div>
+
+        <!-- small box Text below the box -->
+         <div class="fade-small" style="width: 700px;height: 110px;background-color: rgb(206, 142, 85);
+         border-radius: 25px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 50px;">
+        <p style="margin-top: 25px; font-size: 44px; font-weight: bold; color: rgb(0, 0, 0);">
+            How are you!!
+        </p>
+    </div> 
+ <!-- thank you-->
+     
+       
+      <div class=" fade-thankyou" style="color: pink;
+      width: 400px;height: 80px;
+      background-color: palevioletred;
+         border-radius: 25px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family:Playwrite AU QLD;
+         margin-top: 20px;"><h4 style="font-size: 35px;">hope you doing well</h4></div>
+<!-- final-->
+         <div class="fade-final" style="color: pink; width: 750px;height: 400px; background-color: palevioletred;
+            border-radius: 25px; display: flex; justify-content: center; align-items: center; font-family: Playwrite AU QLD;">
+            <h1 style="font-size: 80px;">take care : )</h1>
+</div>
+   
+</body>
+</html>
